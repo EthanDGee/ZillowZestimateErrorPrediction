@@ -1,0 +1,38 @@
+.venv/*
+Scripts/*
+pyvenv.cfg
+
+
+# The remaining are taken from https://gitlab.cs.usu.edu/duckiecorp/sp25-cs3450-lecturenotes/-/blob/master/.gitignore
+
+# LibreOffice lockfiles
+.~lock.*.*#
+
+# C/C++ cruft
+main
+tags
+cscope.*
+*.[od]
+
+# Java junk
+*.class
+.gradle
+build
+*.jar
+
+# Python paraphernalia
+*.pyc
+__pycache__
+
+# PyCharm pollutants
+.idea
+_showyourwork.sqlite
+
+# Crash trash
+*.core
+
+# Vim vandalism
+*.sw[pon]
+*~
+
+
