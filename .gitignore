@@ -35,4 +35,5 @@ _showyourwork.sqlite
 *.sw[pon]
 *~
 
+data/*
 
