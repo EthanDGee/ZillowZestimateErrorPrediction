@@ -1,7 +1,7 @@
 
-**Below is an example table that contains some hyper parameters, and there results**
-
-| Date      | Learning Rate | Number of Iterations | Momentum | Batch Size | Regularization Penalty | Gradient Clipping | Training Performance | Testing Performance |
-|-----------|---------------|----------------------|----------|------------|------------------------|-------------------|----------------------|---------------------|
-| Feb 10 25 | 0.01          | 1000                 | 0.9      | 32         | 0.1                    | 5.0               | 94%                  | 90%                 |
-| Feb 12 25 | 0.001         | 5000                 | 0.8      | 64         | 0.01                   | 1.0               | 96%                  | 92%                 |
+| Date        | Alpha | Features | Number of Iterations | Training MAE | Testing MAE | Training MSE | Testing MSE | Training R2 Score | Testing R2 Score |
+|-------------|-------|-----------|---------------------|--------------|-------------|--------------|-------------|-------------------|-----------------|
+| March 8 25 | 0.00001 | 3       | 500                 | 0.06946      | 0.069434    | 0.02709      | 0.02877     | 0.00091129     | 0.0009325     |
+| March 8 25 | 0.00001 | 4       | 500                 | 0.06926      | 0.069243    | 0.02707      | 0.02874     | 0.0016759     | 0.0018955     |
+| March 8 25 | 0.00001 | 5       | 500                 | 0.06931      | 0.069296    | 0.02706      | 0.02873     | 0.0021067     | 0.0022664     |
+| March 8 25 | 0.00001 | 6       | 500                 | 0.06935      | 0.069341    | 0.02706      | 0.02873     | 0.0021612     | 0.0021154     |
